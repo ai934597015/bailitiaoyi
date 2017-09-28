@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>游戏规则</title>
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.4.2/css/amazeui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="loaded()" class="bule">
+<div class="rule-gb">
+    <div class="bg-2">
+        <div class="top1">
+            <div class="list-title"></div>
+        </div>
+        <div class="rule-title fix">
+            <span class="time">时间</span>
+            <span class="number">积分</span>
+        </div>
+    <div id="rule-con">
+        <div class="list">
+            <div id="ru-scro">
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+                <div class="list1-1">
+                    <span class="fl">2016.11.11   13:20 </span>  <span class="fr">+9</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+    <span class="con-use">总消耗积分   <span class="txt1">27</span>   </span>
+    <span class="con-use">总中奖积分      <span class="txt1">27</span>   </span>
+</div>
+</body>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/allset.js"></script>
+<script type="text/javascript" src="js/iscroll.js"></script>
+<script type="text/javascript">
+    var myScroll;
+    function loaded() {
+        myScroll = new IScroll('.list');
+    }
+    document.addEventListener('touchmove', function (e) {
+        e.preventDefault();
+    }, false);
+
+    var w = jQuery(document).width(), h = jQuery(window).height();
+    $(".rule-gb").css("height", h);
+</script>
+</html>

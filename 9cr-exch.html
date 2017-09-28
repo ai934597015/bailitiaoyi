@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.4.2/css/amazeui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <title>9积分周周兑</title>
+</head>
+<body class="bgcolor1">
+<div class="top-bg">
+    <img src="./images/9cr-top.png">
+</div>
+<div id="ddf-tabbox">
+    <ul class="ddf-tabs" id="ddf-tabs">
+        <li><a href="" tab="tab1">正在抢购</a></li>
+        <li><a href="" tab="tab2">即将开始</a></li>
+        <div class="tabs-cutline1"></div>
+    </ul>
+    <ul class="tab-conbox">
+        <li id="tab1" class="tab-con">
+            <div class="cr-bow">
+                <div class="cr-i">
+                    <div class="cr-i-img">
+                        <img src="./images/prod-niuli.png">
+                    </div>
+                    <div class="cr-i-name">
+                        伊芙令原味牛利一罐伊芙令原味牛利一罐伊芙令原味牛利一罐伊芙令原味牛利一罐
+                    </div>
+                    <div class="cr-i-msg">
+                        <span class="cr">9&nbsp;<small>积分</small></span>
+                        <span class="remain">剩余<span class="remain-color">50</span>份</span>
+                        <a href="vip-toexch-msg.html" class="btn-exch">立即兑换</a>
+                    </div>
+                </div>
+                <div class="cr-i">
+                    <div class="cr-i-img">
+                        <img src="./images/prod-vouchers.png">
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li id="tab2" class="tab-con" hidden="hidden">
+            <div class="cr-bow">
+                <div class="cr-i-tobe">
+                    <img src="./images/prod-vouchers.png">
+                </div>
+                <div class="cr-i-tobe">
+                    <img src="./images/prod-vouchers.png">
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--弹出框--判断金卡-->
+<div class="footbar">
+    <button class="btn-exch" id="btn-exch">立即兑换</button>
+</div>
+<div class="mask-exch" hidden="hidden"></div>
+<div class="modal_exch_1" id="modal-1" hidden="hidden" style="top: 90%;">
+    <div class="mydlg">
+        <div class="myhd" style="height: 40px;font-size: 2rem;" >
+            提示
+        </div>
+        <div class="mybd" style="text-align: center;padding-top: 1em;">
+            <!--请在&nbsp;30&nbsp;分钟内完成支付，您也可前往“9积分兑换券”中进行支付，未完成支付前不能再次兑换此商品。<br/>-->
+            抱歉哦，此商品仅限金卡及以上会员兑换。<br/>
+            <div class="exch_btn_group" style="display: block;margin-left: 15%;">
+                <a href="javascript: void(0)" data-am-modal-close><button class="btn-cancel" style="width: 80%;height: 33px;color: #ffffff;background-color: #a38b67;">确认</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".btn-exch").click(function(){
+        $(".mask-exch").show();
+        $(".modal_exch_1").show();
+    });
+
+    $(".btn-cancel").click(function(){
+        $(".modal_exch_1").hide();
+        $(".mask-exch").hide();
+    });
+</script>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        jQuery.ddftab = function(tabtit,tabcon) {
+            /* 默认第一个tab是active */
+            $(tabcon).hide();
+            $(tabtit+" li:first>a").addClass("activetab").show();
+            $(tabcon+":first").show();
+
+            /* 点击选项卡时 */
+            $(tabtit+" li > a").click(function() {
+                $(tabtit+" li > a").removeClass("activetab");
+                $(tabcon).hide();
+                $(this).addClass("activetab");
+                var activeTab = $(this).attr("tab");
+                $("#"+activeTab).fadeToggle();
+                return false;
+            });
+
+        };
+
+        /*调用方法：*/
+        $.ddftab("#ddf-tabs",".tab-con");
+    });
+
+</script>
+</body>
+</html>

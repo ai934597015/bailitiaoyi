@@ -1,0 +1,26 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    margin:0;
+    padding:0;
+}
+body {
+    font:12px/1.4 "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;background: #9dd00f;
+
+}
+ol, ul {
+    list-style:none;
+}
+
+
+em, i {
+    font-style:normal;
+}
+a {
+    text-decoration: none;
+}
+.text-shadow-none,
+.text-shadow-none .ui-body-c,
+.text-shadow-none .ui-overlay-c {
+    text-shadow: none;
+    background: #f9f9f9;
+}
+.clear{ clear: both;}

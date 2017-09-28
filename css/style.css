@@ -1,0 +1,236 @@
+body{
+    background-color: #efebe8;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    margin:0 auto;
+    margin-top: 4vh;
+}
+.logo img{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.h1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3vh;
+}
+.txt1{
+    font-size: 1rem;
+    color: #676664;
+    text-align: center;
+    margin-top: 2vh;
+}
+.txt2{
+    font-size: 1rem;
+    color: #676664;
+    text-align: center;
+}
+.box1{
+    width: 100%;
+    margin-top: 5vh;
+}
+.re1{
+    background-color: #a48a65;
+}
+.regist{
+    width: 90%;
+    margin:0 auto;
+}
+.bind1{
+    background-color: #ffffff;
+    color: #a48a65;
+    margin-top: 4vh;
+}
+.con1{
+    background-color: #fff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 5vh;
+}
+.img-size{
+    width: 100px;
+    height: 100px;
+}
+.audit-txt{
+    margin-top: 5vh;
+    font-size: 1rem;
+    text-align: center;
+}
+.mt30{
+    margin-top: 30px;
+}
+.star{
+    color: red;
+}
+.form1-txt{
+    font-size: 1rem;
+    margin-top: 8vh;
+    margin-left: 15px;
+}
+.form2-txt{
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.weui-cells{
+    margin-top: 0;
+}
+.re2{
+    margin-top: 20vh;
+}
+.footer1{
+    font-size: 0.5rem;
+    color: #676767;
+    position: fixed;
+    text-align: center;
+    left:0;
+    bottom:8vh;
+    width: 100%;
+}
+.weui-cells{
+    font-size: 16px;
+}
+.tit{
+        font-size: 1.3rem;
+        margin-top: 3vh;
+        text-align: center;
+}
+
+.card-box{
+    background-color: #fff;
+    width: 80%;
+    height: 33vh;
+    margin:0 auto;
+    padding-top: 20px;
+}
+.card-img{
+    width: 70%;
+    height: 63%;
+    background: url("../images/1face.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+.card-img1{
+    width: 70%;
+    height: 63%;
+    background: url("../images/1back.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+
+.img{
+    text-align: center;
+}
+.img img{
+    width: 20%;
+    height: 15%;
+    margin-top: 6.5vh;
+}
+.card-txt1{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #a28b61;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.card-btn{
+    background-color: #a48a65;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    display: block;
+    height:6vh;
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+.card-btn2{
+    height: 8.1vh;
+    width: 100%;
+    background-color: #cccccc;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    line-height: 7vh;
+    font-size: 1rem;
+}
+.brown{
+    color: #a68a63;
+    font-size: 1.5rem;
+}
+.box1-1{
+    width: 90vw;
+    margin: 0 auto;
+}
+.footer2{
+    color: #999999;
+}
+.form1-height{
+    width: 100%;
+    height: 4vh;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    margin-top: 4.4vh;
+    width: 25vw;
+    height: auto;
+}
+.code-1{
+    width: 59.3%;
+    margin: 0 auto;
+    margin-top: 7.3vh;
+}
+.number-txt1{
+    margin-top: 5.8vh;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.number-txt2{
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.re-bind{
+    margin-top: 4vh;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #a48a65;
+    line-height: 2.55555556;
+    border: 0.8px solid #cccccc;
+}
+
+.refresh-bg{
+    width: 100%;
+    height: 100vh
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

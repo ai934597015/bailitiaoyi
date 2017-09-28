@@ -1,0 +1,58 @@
+﻿active            激活会员
+
+audit-sub         实名认证3
+
+audit-succ	  实名认证4
+
+card              实名认证2
+
+card2             实名认证1
+
+draw-list         抽奖记录
+
+index              大转盘
+
+vip-9cr            9优惠券
+
+vip-apply          2会员注册
+ 
+vip-bind           3会员绑定-未迁移
+
+vip-credit         5我的积分
+
+vip-home           7会员中心
+
+vip-number          二维码
+
+vip-userinfo        4会员绑定-已迁移
+
+vip-userinfo-my      已认证
+
+vip-userinfo-my-no    未认证
+
+vip-refresh-no       无数据
+
+vip-refresh-nouse    无需迁移
+
+vip-refresh-succ     焕新成功
+
+vip-refresh          即刻焕新
+
+vip-list             列表
+
+
+新增 （12月27号）
+
+audit-lost          实名认证4
+
+num-exchange-rule   积分兑换规则 
+
+num-exchange-gift   积分兑换奖品
+
+vip-9cr-msg         兑换详情页面点击兑换，判断金卡，不是金卡弹出
+
+9cr-exch            点击兑换，判断金卡，不是金卡弹出
+
+
+
+

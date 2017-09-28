@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <title>消耗9积分</title>
+    <link href="css/public.css" type="text/css" rel=" stylesheet">
+    <link href="css/demo.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+    <!--<script type="text/javascript" src="js/frame.js"></script>-->
+    <!--<script type="text/javascript" src="js/allset.js"></script>-->
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>jQuery.noConflict()</script>
+    <script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.6.0/js/amazeui.min.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+<!--转动完毕之后的按钮-------------------------------------------------------------------------->
+<!--消耗9积分-->
+<button
+        type="button"
+        class="am-btn am-btn-primary"
+        data-am-modal="{target: '#my-alert'}">
+    消耗9积分
+</button>
+<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
+    <div class="am-modal-dialog">
+        <img src="images/cancel.png" alt="" class="cancel1" data-am-modal-close>
+        <div class="am-modal-hd">
+            <img src="images/3-jifen.png" alt="">
+        </div>
+        <div class="am-modal-bd">
+            抽奖将消耗9积分~
+        </div>
+        <div class="am-modal-footer">
+            <a class="am-modal-btn info-btn" href="#" data-am-modal-cancel  style="display: inline-block !important;"  id="info">确定</a>
+            <a class="am-modal-btn info-btn ml15"  href="#" data-am-modal-confirm style="display: inline-block !important;">再想想</a>
+        </div>
+    </div>
+</div>
+<!--获得9积分-->
+<button
+        type="button"
+        class="am-btn am-btn-primary"
+        data-am-modal="{target: '#my-alert1'}">
+    获得9积分
+</button>
+<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert1">
+    <div class="am-modal-dialog">
+        <img src="images/cancel.png" alt="" class="cancel1" data-am-modal-close>
+        <div class="am-modal-hd">
+            <img src="images/4-one.png" alt="">
+        </div>
+        <div class="am-modal-bd">
+            恭喜你，获得9积分~
+        </div>
+        <div class="am-modal-footer">
+            <a class="am-modal-btn info-btn "   href="#" data-am-modal-cancel  style="display: inline-block !important;" id="info">确定</a>
+            <a class="am-modal-btn info-btn ml15"   href="#" data-am-modal-confirm style="display: inline-block !important;">分享好友</a>
+        </div>
+    </div>
+</div>
+<!--获得18积分-->
+<button
+        type="button"
+        class="am-btn am-btn-primary"
+        data-am-modal="{target: '#my-alert2'}">
+    获得18积分
+</button>
+<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert2">
+    <div class="am-modal-dialog">
+        <img src="images/cancel.png" alt="" class="cancel1" data-am-modal-close>
+        <div class="am-modal-hd">
+            <img src="images/4-two.png" alt="">
+        </div>
+        <div class="am-modal-bd">
+            恭喜你获得18积分~
+        </div>
+        <div class="am-modal-footer">
+            <a class="am-modal-btn info-btn" href="#" data-am-modal-cancel  style="display: inline-block !important;" id="info">确定</a>
+            <a class="am-modal-btn info-btn ml15" href="#" data-am-modal-confirm style="display: inline-block !important;">分享好友</a>
+        </div>
+    </div>
+</div>
+<!--获得90积分-->
+<button
+        type="button"
+        class="am-btn am-btn-primary"
+        data-am-modal="{target: '#my-alert3'}">
+    获得90积分
+</button>
+<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert3">
+    <div class="am-modal-dialog">
+        <img src="images/cancel.png" alt="" class="cancel1" data-am-modal-close>
+        <div class="am-modal-hd">
+            <img src="images/4-ten.png" alt="">
+        </div>
+        <div class="am-modal-bd">
+            恭喜你，获得90积分~
+        </div>
+        <div class="am-modal-footer">
+            <a class="am-modal-btn info-btn "  href="#" data-am-modal-cancel  style="display: inline-block !important;"  id="info">确定</a>
+            <a class="am-modal-btn info-btn ml15" href="#" data-am-modal-confirm style="display: inline-block !important;">分享好友</a>
+        </div>
+    </div>
+</div>
+<!--没有中奖-->
+<button
+        type="button"
+        class="am-btn am-btn-primary"
+        data-am-modal="{target: '#my-alert4'}">
+    没中奖
+</button>
+<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert4">
+    <div class="am-modal-dialog">
+        <img src="images/cancel.png" alt="" class="cancel1" data-am-modal-close>
+        <div class="am-modal-hd">
+            <img src="images/4-nodraw.png" alt="">
+        </div>
+        <div class="am-modal-bd">
+            很遗憾，没能中奖~
+        </div>
+        <div class="am-modal-footer">
+            <a class="am-modal-btn info-btn "  href="#" data-am-modal-cancel  style="display: inline-block !important;"  id="info">确定</a>
+            <a class="am-modal-btn info-btn ml15"  href="#" data-am-modal-confirm style="display: inline-block !important;">分享好友</a>
+        </div>
+    </div>
+</div>
+<!--积分不足-->
+<button type="button" class="am-btn am-btn-primary" data-am-modal="{target: '#my-alert5'}">积分不足</button>
+<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert5">
+    <div class="am-modal-dialog">
+        <img src="images/cancel.png" alt="" class="cancel1" data-am-modal-close>
+        <div class="am-modal-hd">
+            <img src="images/3-codelack.png" alt="">
+        </div>
+        <div class="am-modal-bd">
+            您的积分不足~
+        </div>
+        <div class="am-modal-footer">
+            <a class="am-modal-btn info-btn " href="#"  id="info1" data-am-modal-cancel  style="display: inline-block !important;"  id="info">确定</a>
+        </div>
+    </div>
+</div>
+<!------------------------------------------------------------------------------------------->
+<div class="warp6">
+    <div class="box">
+        积分：1000
+    </div>
+    <div class="game" id="game">
+        <div class="ror-top">
+            <div class="ror-img"><img src="images/1-wheel.png" alt=""/>
+                <div class="mouse"><img src="images/start.PNG" alt=""/></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="warp1">
+    <a href="#" class="draw-l">查看抽奖记录</a>
+    <div class="rule_txt">
+        <div class="txt_tit">游戏规则</div>
+        1、每次游戏 <span class="red">需消耗9个会员积分</span>，每天不限次数；<br>
+        2、点击开始按钮，指针停止时指向哪个区域，即获得该区域奖项；<br>
+        3、一倍指获得9个积分，2倍指获得18个积分，同理，10倍指获得90个积分；<br>
+        4、积分可当钱花，可参加大东方百货的积分返利和兑换活动；<br>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $(".mouse").click(function(){
+            $(this).animate({rotate: 35000 + 'deg'}, 3000, 'ease-out', function () {
+                $("#my-alert4").attr("display","block");
+            });
+        });
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
